@@ -1,0 +1,1348 @@
+*:lang(en) {
+  font-family: "Montserrat", sans-serif !important;
+}
+*:lang(ar) {
+  font-family: "Almarai", sans-serif !important;
+  letter-spacing: 0 !important;
+}
+
+.palceholderFontFamily .MuiFilledInput-input,
+.palceholderFontFamily .MuiOutlinedInput-input {
+  font-family: "Montserrat" !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.heroCarousel {
+  direction: ltr !important;
+}
+.categoriesBox {
+  grid-column: span 4;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.categoriesBox:hover {
+  filter: drop-shadow(5px 15px 15px rgba(0, 0, 0, 0.16)) !important;
+  transition: all 0.6s ease-in-out !important;
+}
+.categoriesBoxVase {
+  background: url("/src/assets/categories/vase.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.categoriesBoxVase:hover {
+  background: url("/src/assets/categories/vaseHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.categoriesBoxFlower {
+  background: url("/src/assets/categories/flowerBox.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.categoriesBoxFlower:hover {
+  background: url("/src/assets/categories/flowerBoxHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.categoriesBoxHand {
+  background: url("/src/assets/categories/handBouquet.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.categoriesBoxHand:hover {
+  background: url("/src/assets/categories/handBouquetHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.carousel-container-mayLike {
+  direction: ltr !important;
+}
+/* shop by occasion */
+.shopByOccasionBox {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-column: span 4;
+}
+
+.shopByOccasionBox:hover {
+  filter: drop-shadow(5px 15px 15px rgba(0, 0, 0, 0.16)) !important;
+  transition: all 0.6s ease-in-out !important;
+}
+
+.shopByOccasionBoxThankYou {
+  background: url("/src/assets/shopByOccasion/thankYou.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shopByOccasionBoxLove {
+  background: url("/src/assets/shopByOccasion/Love.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shopByOccasionBoxBirthday {
+  background: url("/src/assets/shopByOccasion/Birthday.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shopByOccasionBoxMotherDay {
+  background: url("/src/assets/shopByOccasion/MotherDay.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shopByOccasionBoxTeachersDay {
+  background: url("/src/assets/shopByOccasion/TeachersDay.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.shopByOccasionBoxNewBaby {
+  background: url("/src/assets/shopByOccasion/NewBaby.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.shopByOccasionBoxThankYou:hover {
+  background: url("/src/assets/shopByOccasion/thankYouHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.shopByOccasionBoxLove:hover {
+  background: url("/src/assets/shopByOccasion/LoveHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.shopByOccasionBoxBirthday:hover {
+  background: url("/src/assets/shopByOccasion/BirthdayHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.shopByOccasionBoxMotherDay:hover {
+  background: url("/src/assets/shopByOccasion/MotherDayHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.shopByOccasionBoxTeachersDay:hover {
+  background: url("/src/assets/shopByOccasion/TeachersDayHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.shopByOccasionBoxNewBaby:hover {
+  background: url("/src/assets/shopByOccasion/NewBabyHover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.6s ease;
+}
+.activeButonAddDialog {
+  background: rgba(245, 149, 141, 0.66) !important;
+  border: 2px solid rgba(245, 149, 141, 0.66) !important;
+  box-shadow: inset -3px -4px 12px rgba(0, 0, 0, 0.08) !important;
+  color: #fefefe !important;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.pagination a {
+  cursor: default;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 149, 141, 0.66);
+  color: rgba(245, 149, 141, 0.66);
+  margin-left: 10px;
+}
+
+.pagination li:not(.disabled) a:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.pagination li a {
+  font-weight: bold;
+}
+
+.pagination li.active a {
+  color: #fff;
+  background: rgba(245, 149, 141, 0.66);
+}
+
+.pagination li.disabled a {
+  pointer-events: none;
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+.nsm7Bb-HzV7m-LgbsSe {
+  border: 1.33188px solid #f0f0f0 !important;
+  border-radius: 10.655px !important;
+  height: 48px !important;
+}
+.noBackgorundOnHover:hover {
+  background: none !important;
+}
+@media screen and (min-width: 1600px) {
+  .HeroImageMobile {
+    grid-column-start: 9 !important;
+    grid-column-end: 12 !important;
+  }
+  .categoriesContainer {
+    column-gap: 8rem !important;
+  }
+  .shopByOccasionBoxContainer {
+    column-gap: 7rem !important;
+  }
+  .ourShopTapBoxContainer {
+    column-gap: 9rem !important;
+    margin: 4rem 7rem !important;
+  }
+  .ourShopPageCardMobile {
+    grid-template-rows: 16rem 5rem !important;
+  }
+  .shopByOccasionContainerBoxMobile {
+    grid-template-rows: 1fr 30rem !important;
+  }
+  .bigScreenPriceAr:lang(ar) {
+    right: 14% !important;
+  }
+  /* about us page */
+  .aboutUsPageTextSize {
+    font-size: 1.2vw !important;
+  }
+  .MaylikeCardBoxWidthMobile {
+    grid-template-rows: 16rem 7rem !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1550px) {
+  .categoriesContainer {
+    column-gap: 2rem !important;
+    /* grid-template-rows: 10rem !important; */
+  }
+  .bigScreenPriceAr:lang(ar) {
+    right: 15% !important;
+  }
+  .offerRightOffsetMayLike {
+    right: 0rem !important;
+  }
+  /* .MaylikeCardBoxWidthMobile {
+    grid-template-rows: 14rem 7rem !important;
+  } */
+  .shopByOccasionBoxContainer {
+    row-gap: 6rem !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .HeroCarouselContainerMobile {
+    grid-template-columns: repeat(10, 1fr) !important;
+  }
+  .HeroImageMobile {
+    grid-column-start: 8 !important;
+    grid-column-end: 10 !important;
+  }
+  .bigScreenPriceAr:lang(ar) {
+    right: 20% !important;
+  }
+
+  .shopByOccasionBoxContainer {
+    column-gap: 7rem !important;
+  }
+  .categoriesContainer {
+    /* column-gap: 13rem !important; */
+    grid-template-rows: 19rem !important;
+  }
+  .headerLogo {
+    height: 8rem !important;
+  }
+  .headerLinks {
+    font-size: 2rem !important;
+  }
+  .cartBox .MuiSvgIcon-root {
+    font-size: 3rem !important;
+  }
+  .mobileLanguageMargin button img {
+    width: 3rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .offerRightOffsetMayLike {
+    right: 0rem !important;
+  }
+  .ourShopPageCardMobile {
+    grid-column: span 4 !important;
+  }
+}
+@media screen and (width: 1024px) {
+  .HeroImageMobile {
+    grid-row-start: 2 !important;
+    grid-row-end: 6 !important;
+  }
+  .categoriesContainer {
+    column-gap: 2rem !important;
+    grid-template-rows: 10rem !important;
+  }
+  .shopByOccasionBoxContainer {
+    column-gap: 2rem !important;
+    grid-template-rows: 10rem 10rem !important;
+  }
+}
+@media screen and (min-width: 1470px) {
+  .offerRightOffsetMayLike {
+    right: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* header section */
+  .headerLogo {
+    width: 90% !important;
+    height: auto !important;
+  }
+  .mobileLanguageMargin {
+    margin: 0 0.5rem !important;
+  }
+  /* hero section */
+  .HeroCarouselContainerMobile {
+    grid-template-rows: repeat(8, 4rem) !important;
+  }
+  .HeroImageMobile {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 5 !important;
+  }
+  .HeroProducsTitleMobile {
+    align-self: center !important;
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 5 !important;
+    grid-row-end: 6 !important;
+    font-size: 6vw !important;
+  }
+  .HeroProducsPriceMobile {
+    align-self: center !important;
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 6 !important;
+    grid-row-end: 7 !important;
+    font-size: 4vw !important;
+  }
+  .HeroProducsDescriptionMobile {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 7 !important;
+    grid-row-end: 8 !important;
+    font-size: 3vw !important;
+    align-self: flex-start !important;
+  }
+  .HeroProducsActionsMobile {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 8 !important;
+    grid-row-end: 9 !important;
+    font-size: 3vw !important;
+    align-self: flex-start !important;
+  }
+  .HeroProducsActionsChipMobile {
+    padding: 10px 15px !important;
+    font-size: 2.5vw !important;
+  }
+
+  /* May like section */
+  .maylikeCarouselDiv {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+  }
+  .MaylikeCardBoxWidthMobile {
+    max-width: unset !important;
+    grid-template-rows: 14rem 8rem !important;
+    margin: 0 !important;
+  }
+  .bigScreenPriceAr {
+    right: 15% !important;
+  }
+  .categoriesCardTextMobile {
+    font-size: 8vw !important;
+  }
+
+  /* follow Us Section */
+  .followUsMainPicMobile {
+    display: none !important;
+  }
+  .followUsIconsMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    margin-bottom: 4rem !important;
+  }
+  .followUsIconsMobileRadiusBox {
+    border-radius: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+  }
+  /* contact us */
+  .contactUsMainBoxMobile {
+    background: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 5rem !important;
+  }
+  .contactUsIconsMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    grid-row-start: 1 !important;
+    justify-self: center !important;
+    margin-bottom: 3 !important;
+  }
+  .contactUsPhoneMobileMargin {
+    margin-bottom: 0 !important;
+  }
+  .contactUsEmailMobileMargin {
+    margin-bottom: 0 !important;
+    margin: 2rem 0 !important;
+  }
+  .contactUsFormControlMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    grid-row-start: 2 !important;
+  }
+  /* footer */
+  .footerContactUsMobile {
+    display: none !important;
+  }
+  .footerShopMobile {
+    grid-column-start: 8 !important;
+    grid-column-end: 13 !important;
+    justify-self: center !important;
+  }
+  .footerLogoMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 8 !important;
+  }
+  .footerShopTextSize {
+    font-size: 5vw !important;
+    font-weight: 600 !important;
+  }
+  .footerShopLinkTextSize {
+    font-size: 3vw !important;
+  }
+  .footerCopyRights {
+    font-size: 2.5vw !important;
+  }
+  .footerLangTextSizeMobile {
+    font-size: 2.5vw !important;
+  }
+  /* title FontSize */
+  .TitleMobile {
+    font-size: 6vw !important;
+  }
+  .TitleMobileOur {
+    font-size: 8vw !important;
+  }
+  /* Add Dialog */
+  .AddDialogPhotoBox {
+    margin-top: 5rem !important;
+    grid-column-start: 2 !important;
+    grid-column-end: 13 !important;
+  }
+  .AddDialogDescriptionBox {
+    grid-column-start: 2 !important;
+    grid-column-end: 13 !important;
+  }
+  .AddDialogProductTittleTextSize {
+    font-size: 7vw !important;
+  }
+  .AddDialogProductCategoryTextSize {
+    font-size: 5vw !important;
+  }
+  .AddDialogProductCategorySpanTextSize {
+    font-size: 5vw !important;
+  }
+  .AddDialogProductDeliveryInfoTextSize {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    font-size: 6vw !important;
+  }
+  .AddDialogProductDeliveryInfoBox {
+    grid-template-rows: auto !important ;
+  }
+  .AddDialogProductDataInputsBox {
+    grid-row-start: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .AddDialogProductDataInputsBox2 {
+    width: 100% !important;
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .AddDialogPrice {
+    right: 35% !important;
+    font-size: 5vw !important;
+  }
+  /* outShop Page */
+  .ourShopTapBoxContainer {
+    grid-template-columns: repeat(8, 1fr) !important;
+    margin: 4rem 0 !important;
+  }
+  .ourShopPageCardMobile {
+    grid-column-start: 2 !important;
+    grid-column-end: 8 !important;
+    grid-template-rows: 11rem 8rem !important;
+    padding: 1rem !important;
+    padding-bottom: 0 !important;
+  }
+  .outShopTabsBoxContainer {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  /* addDialogMobile */
+  .AddDialogProductDataInputsBox2 {
+    margin-top: 4rem !important;
+  }
+  /* header section */
+  .signinbuttonMobile {
+    width: 30vw !important;
+    padding: 1rem 0 !important;
+  }
+  /* signinDialogSection */
+  .signInDialogContentMobile {
+    grid-template-rows: auto !important;
+  }
+  .socialSignIntText {
+    grid-column-end: 12 !important;
+    font-size: 1rem !important;
+  }
+  .SocialIconButtonMobileContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .SocialIconButtonMobileContainerBox {
+    row-gap: 1rem !important;
+  }
+
+  .signInButtonSigninDialogMobile {
+    width: 40vw !important;
+    padding: 1rem 0 !important;
+  }
+  .signUpSignIndialogMobile {
+    height: unset !important;
+  }
+  .colorFullExperienceMobile {
+    grid-column-end: 12 !important;
+  }
+  .haveAccountTextSize {
+    font-size: 0.8rem !important;
+  }
+  /* Profile Section */
+  .profileAvatarMobile {
+    grid-row-start: 1 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .profileInfoMobile {
+    margin-top: 1rem !important;
+    grid-row-start: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 11 !important;
+  }
+  .profileSaveMobile {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 6 !important;
+  }
+  .profileSignOutAndEditMobile {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 10 !important;
+    flex-direction: row !important;
+  }
+  /* accountPopoverMobile */
+  .accountPopoverMobile {
+    grid-row-start: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+  }
+  .accountPopoverAvatarMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+    grid-row-start: 1 !important;
+    width: 35% !important;
+    justify-self: center !important;
+  }
+  .accountPopoversignOutMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+    grid-row-start: 3 !important;
+  }
+  .accountPopoverMobileTextSize {
+    font-size: 0.9rem !important;
+  }
+  .accountPopoverAvatarImgMobile {
+    width: 80% !important;
+    height: 100% !important;
+  }
+  .accountPopoverWidthMobile .MuiPaper-root {
+    width: 40% !important;
+  }
+  /* occasionPage */
+  .mobileHeight {
+    height: 100vh !important;
+  }
+  .occasionPageHeaderTextSize {
+    font-size: 4vw !important;
+  }
+  .nothingToShowTextSize {
+    font-size: 3vw !important;
+  }
+  .occasionPageCardsBoxContainerStyle {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+  /* cart Page */
+  .cartPageImageBoxContainer {
+    margin-top: 4rem !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    padding: 0 !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-top: 5rem !important;
+  }
+  .ProceedToCheckoutButtonMobile {
+    font-size: 0.6rem !important;
+  }
+  .cartPageContentBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    grid-template-columns: 1fr !important;
+  }
+  .AddDialogProductDeliveryInfoTextSize {
+    font-size: 5vw !important;
+  }
+  .cartPageDeliveryContentBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .cartPageDeliveryContentBoxContainer2 {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .display-none {
+    display: none !important;
+  }
+  .notfoundMobileContainer {
+    grid-template-columns: 1fr !important;
+  }
+  .backToHomeMobile {
+    width: 50% !important;
+  }
+  /* Alert dialog */
+  .alertDialogCartActionsMobile {
+    flex-direction: column !important;
+  }
+  .alertDialogCartActionsMobileButtonsBox {
+    margin: 1rem 0 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 100% !important;
+  }
+  .ProceedToCheckoutTextMobile {
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+  .maylikeCarouselDiv {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .maylikeCarouselDiv {
+    grid-column-start: 4 !important;
+    grid-column-end: 10 !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  .productFontSize {
+    font-size: 0.8rem !important;
+  }
+  /* Hero */
+  .HeroCarouselContainerMobile {
+    grid-template-rows: repeat(5, 4rem) !important;
+  }
+  .signinbuttonMobile {
+    width: 15vw !important;
+    padding: 1rem 0 !important;
+  }
+  .HeroImageMobile {
+    grid-row-start: 2 !important;
+    grid-row-end: 6 !important;
+  }
+  /* offer */
+  .offerRightOffsetMayLike {
+    right: 0rem !important;
+  }
+  .offerTextSize {
+    font-size: 1rem !important;
+  }
+  /* categories */
+
+  .categoriesMainBox {
+    grid-template-rows: 1fr 9rem !important;
+  }
+
+  /* shop by occasion */
+  .shopByOccasionContainerBoxMobile {
+    grid-template-rows: 1fr 10rem 10rem !important;
+  }
+  /* may like */
+  .MaylikeCardBoxWidthMobile {
+    max-width: unset !important;
+    grid-template-rows: 16rem 7rem !important;
+  }
+
+  /* Add Dialog */
+  .AddDialogPhotoBox {
+    margin-top: 5rem !important;
+    grid-column-start: 2 !important;
+    grid-column-end: 15 !important;
+  }
+  .AddDialogDescriptionBox {
+    grid-column-start: 2 !important;
+    grid-column-end: 15 !important;
+  }
+  .AddDialogProductTittleTextSize {
+    font-size: 7vw !important;
+  }
+  .AddDialogProductCategoryTextSize {
+    font-size: 4vw !important;
+  }
+  .AddDialogProductCategorySpanTextSize {
+    font-size: 3vw !important;
+  }
+  .AddDialogProductDeliveryInfoTextSize {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    font-size: 5vw !important;
+  }
+
+  .shopByOccasionBoxContainer {
+    row-gap: 5rem !important;
+    grid-row-end: 4 !important;
+  }
+  /* outShopPage
+   */
+  .ourShopPageCardMobile {
+    grid-column: span 5 !important;
+    grid-template-rows: 16rem 5rem !important;
+  }
+  .ourShopTapBoxContainer {
+    column-gap: 3.5rem !important;
+    grid-template-columns: repeat(11, 1fr) !important;
+  }
+  /* contact us */
+  .contactUsIconsMobile {
+    grid-column-end: 13 !important;
+  }
+  /* cart Page */
+  .cartPageImageBoxContainer {
+    margin-top: 4rem !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+  }
+  .cartPageContentBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    grid-template-columns: 1fr !important;
+  }
+  .AddDialogProductDeliveryInfoTextSize {
+    font-size: 5vw !important;
+  }
+  .cartPageDeliveryContentBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .cartPageDeliveryContentBoxContainer2 {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  /* occasion */
+  .occasionPageCardsBoxContainerStyle {
+    width: 100% !important;
+    grid-template-columns: repeat(8, 1fr) !important;
+  }
+  /* footer */
+  .footerShopMobile {
+    grid-column-start: 5 !important;
+    grid-column-end: 8 !important;
+  }
+  .footerCopyRights {
+    font-size: 1.5vw !important;
+  }
+  /* follow US */
+  .followUsIconsMobileRadiusBox {
+    border-right: 0 !important;
+  }
+}
+@media screen and (pointer: none) and (max-width: 950px) and (orientation: landscape) {
+  .HeroProducsTitleMobile {
+    align-self: center !important;
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 5 !important;
+    grid-row-end: 6 !important;
+    font-size: 6vw !important;
+  }
+  .HeroProducsPriceMobile {
+    align-self: center !important;
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 6 !important;
+    grid-row-end: 7 !important;
+    font-size: 4vw !important;
+  }
+
+  /* occasionBox */
+  .shopByOccasionBoxContainer {
+    row-gap: 2rem !important;
+  }
+
+  /* outShopPage
+   */
+  .ourShopPageCardMobile {
+    grid-column: span 5 !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .categoriesContainer {
+    column-gap: 2rem !important;
+    grid-template-rows: 10rem !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* header section */
+  .topHeader {
+    font-size: 0.8rem !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .headerLogo {
+    width: 90px !important;
+    height: auto !important;
+  }
+  .HeaderContainer {
+    padding: 0 1rem !important;
+  }
+  /* hero section */
+  .HeroCarouselContainerMobile {
+    grid-template-rows: repeat(8, 4rem) !important;
+  }
+  .HeroImageMobile {
+    grid-column-start: 4 !important;
+    grid-column-end: 10 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 5 !important;
+  }
+  .HeroProducsTitleMobile {
+    align-self: center !important;
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 5 !important;
+    grid-row-end: 6 !important;
+    font-size: 6vw !important;
+  }
+  .HeroProducsPriceMobile {
+    align-self: center !important;
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 6 !important;
+    grid-row-end: 7 !important;
+    font-size: 4vw !important;
+  }
+  .HeroProducsDescriptionMobile {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 7 !important;
+    grid-row-end: 8 !important;
+    font-size: 3vw !important;
+    align-self: flex-start !important;
+  }
+  .HeroProducsActionsMobile {
+    grid-column-start: 3 !important;
+    grid-column-end: 11 !important;
+    grid-row-start: 8 !important;
+    grid-row-end: 9 !important;
+    font-size: 3vw !important;
+    align-self: flex-start !important;
+  }
+  .HeroProducsActionsChipMobile {
+    padding: 10px 15px !important;
+    font-size: 2.5vw !important;
+  }
+  .categoriesImagesMobile {
+    width: 80% !important;
+  }
+  .categoriesTitleMobile {
+    font-size: 4vw !important;
+  }
+  .categoriesTitleMobileAr {
+    font-size: 6vw !important;
+  }
+  .categoriesTitleMobileOur {
+    font-size: 2vw !important;
+  }
+  .categoriesContainer {
+    grid-row-start: 2 !important;
+    grid-row-end: 5 !important;
+    row-gap: 1rem !important;
+    column-gap: 1.5rem !important;
+    grid-template-rows: repeat(3, 1fr) !important;
+  }
+
+  .categoriesBox {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+  }
+  .caegoryVase {
+    background: url(/src/assets/categories/vaseMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+  .caegoryHand-Bouquet {
+    background: url(/src/assets/categories/handMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+  .caegoryFlower-Box {
+    background: url(/src/assets/categories/boxMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+  .categoriesBoxHand {
+    grid-row-start: 3 !important;
+    grid-row-end: 5 !important;
+    grid-column-start: 2 !important;
+    grid-column-end: 12 !important;
+  }
+  .categoriesBoxFlower {
+    grid-row-start: 5 !important;
+    grid-row-end: 7 !important;
+    grid-column-start: 2 !important;
+    grid-column-end: 12 !important;
+  }
+  .categoriesCardTextMobile {
+    font-size: 5vw !important;
+  }
+  /* May like section */
+  .MaylikeCardBoxWidthMobile {
+    max-width: unset !important;
+    grid-template-rows: 16rem 8rem !important;
+  }
+  /* Shop By occasion section */
+  .shopByOccasionBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    grid-auto-rows: 2fr;
+    column-gap: 2rem !important;
+  }
+  .shopByOccasionContainerBoxMobile {
+    grid-template-rows: 1fr 60rem !important;
+    margin-bottom: 5rem !important;
+  }
+  .byOccasionBoxMobile {
+    grid-column-start: 2 !important;
+    grid-column-end: 12 !important;
+  }
+  .byOccasionTextSizeMobile {
+    font-size: 6vw !important;
+    font-weight: 600 !important;
+    left: 15% !important;
+  }
+  .occasionCardThank-you {
+    background: url(/src/assets/shopByOccasion/thankyouMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 80% 100% !important;
+    border-radius: 49px !important;
+    background-position: top !important;
+  }
+  .occasionCardLove {
+    background: url(/src/assets/shopByOccasion/loveMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 80% 100% !important;
+    border-radius: 49px !important;
+    background-position: top !important;
+  }
+  .occasionCardBirthday {
+    background: url(/src/assets/shopByOccasion/birthdayMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 80% 100% !important;
+    border-radius: 49px !important;
+    background-position: top !important;
+  }
+  .occasionCardMother-Day {
+    background: url(/src/assets/shopByOccasion/momMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 80% 100% !important;
+    border-radius: 49px !important;
+    background-position: top !important;
+  }
+  .occasionCardTeachers-Day {
+    background: url(/src/assets/shopByOccasion/teacherMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 80% 100% !important;
+    border-radius: 49px !important;
+    background-position: top !important;
+  }
+  .occasionCardNew-Baby {
+    background: url(/src/assets/shopByOccasion/babyMobile.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 80% 100% !important;
+    border-radius: 49px !important;
+    background-position: top !important;
+  }
+  /* follow Us Section */
+  .followUsMainPicMobile {
+    display: none !important;
+  }
+  .followUsIconsMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    margin-bottom: 4rem !important;
+  }
+  .followUsIconsMobileRadiusBox {
+    border-radius: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+  }
+  /* contact us */
+  .contactUsMainBoxMobile {
+    background: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 5rem !important;
+  }
+  .contactUsIconsMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    grid-row-start: 1 !important;
+    justify-self: center !important;
+    margin-bottom: 3rem !important;
+  }
+  .contactUsPhoneMobileMargin {
+    margin-bottom: 0 !important;
+  }
+  .contactUsEmailMobileMargin {
+    margin-bottom: 0 !important;
+    margin: 2rem 0 !important;
+  }
+  .contactUsFormControlMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
+    grid-row-start: 2 !important;
+  }
+  /* footer */
+  .footerContactUsMobile {
+    display: none !important;
+  }
+  .footerShopMobile {
+    grid-column-start: 8 !important;
+    grid-column-end: 13 !important;
+    justify-self: center !important;
+  }
+  .footerLogoMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 8 !important;
+  }
+  .footerShopTextSize {
+    font-size: 5vw !important;
+    font-weight: 600 !important;
+  }
+  .footerShopLinkTextSize {
+    font-size: 3vw !important;
+  }
+  .footerCopyRights {
+    font-size: 2.5vw !important;
+  }
+  .footerLangTextSizeMobile {
+    font-size: 2.5vw !important;
+  }
+  /* title FontSize */
+  .TitleMobile {
+    font-size: 6vw !important;
+  }
+  .TitleMobileOur {
+    font-size: 3vw !important;
+  }
+  /* Add Dialog */
+  .AddDialogPhotoBox {
+    margin-top: 5rem !important;
+    grid-column-start: 2 !important;
+    grid-column-end: 13 !important;
+  }
+  .AddDialogDescriptionBox {
+    grid-column-start: 2 !important;
+    grid-column-end: 13 !important;
+  }
+  .AddDialogProductTittleTextSize {
+    font-size: 7vw !important;
+  }
+  .AddDialogProductCategoryTextSize {
+    font-size: 5vw !important;
+  }
+  .AddDialogProductCategorySpanTextSize {
+    font-size: 5vw !important;
+  }
+  .AddDialogProductDeliveryInfoTextSize {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    font-size: 6vw !important;
+  }
+  .AddDialogProductDeliveryInfoBox {
+    grid-template-rows: auto !important ;
+  }
+  .AddDialogProductDataInputsBox {
+    grid-row-start: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .AddDialogProductDataInputsBox2 {
+    width: 100% !important;
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .AddDialogPrice {
+    right: 35% !important;
+    font-size: 5vw !important;
+  }
+  /* outShop Page */
+  .ourShopTapBoxContainer {
+    grid-template-columns: repeat(9, 1fr) !important;
+    margin: 4rem 0 !important;
+  }
+  .ourShopPageCardMobile {
+    grid-column-start: 2 !important;
+    grid-column-end: 9 !important;
+    grid-template-rows: 16rem 5rem !important;
+    padding: 1rem !important;
+    padding-bottom: 0 !important;
+  }
+  /* addDialogMobile */
+  .AddDialogProductDataInputsBox2 {
+    margin-top: 4rem !important;
+  }
+  /* header section */
+  .signinbuttonMobile {
+    width: 30vw !important;
+    padding: 1rem 0 !important;
+  }
+  /* signinDialogSection */
+  .signInDialogContentMobile {
+    grid-template-rows: auto !important;
+  }
+  .socialSignIntText {
+    grid-column-end: 12 !important;
+    font-size: 1rem !important;
+  }
+  .SocialIconButtonMobileContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .SocialIconButtonMobileContainerBox {
+    row-gap: 1rem !important;
+  }
+
+  .signInButtonSigninDialogMobile {
+    width: 40vw !important;
+    padding: 1rem 0 !important;
+  }
+  .signUpSignIndialogMobile {
+    height: unset !important;
+  }
+  .colorFullExperienceMobile {
+    grid-column-end: 12 !important;
+  }
+  .haveAccountTextSize {
+    font-size: 0.8rem !important;
+  }
+  /* Profile Section */
+  .profileAvatarMobile {
+    grid-row-start: 1 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .profileInfoMobile {
+    margin-top: 1rem !important;
+    grid-row-start: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 11 !important;
+  }
+  .profileSaveMobile {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 6 !important;
+  }
+  .profileSignOutAndEditMobile {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 10 !important;
+    flex-direction: row !important;
+  }
+  /* accountPopoverMobile */
+  .accountPopoverMobile {
+    grid-row-start: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+  }
+  .accountPopoverAvatarMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+    grid-row-start: 1 !important;
+    width: 35% !important;
+    justify-self: center !important;
+  }
+  .accountPopoversignOutMobile {
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+    grid-row-start: 3 !important;
+  }
+  .accountPopoverMobileTextSize {
+    font-size: 0.9rem !important;
+  }
+  .accountPopoverAvatarImgMobile {
+    width: 80% !important;
+    height: 100% !important;
+  }
+  .accountPopoverWidthMobile .MuiPaper-root {
+    width: 40% !important;
+  }
+  /* occasionPage */
+  .mobileHeight {
+    height: 100vh !important;
+  }
+  .occasionPageHeaderTextSize {
+    font-size: 4vw !important;
+  }
+  .nothingToShowTextSize {
+    font-size: 3vw !important;
+  }
+  .occasionPageCardsBoxContainerStyle {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+  /* cart Page */
+  .cartPageImageBoxContainer {
+    margin-top: 4rem !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    padding: 0 !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-top: 5rem !important;
+  }
+  .ProceedToCheckoutButtonMobile {
+    font-size: 0.6rem !important;
+  }
+  .cartPageContentBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 12 !important;
+    grid-template-columns: 1fr !important;
+  }
+  .AddDialogProductDeliveryInfoTextSize {
+    font-size: 5vw !important;
+  }
+  .cartPageDeliveryContentBoxContainer {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .cartPageDeliveryContentBoxContainer2 {
+    grid-row-start: 3 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .display-none {
+    display: none !important;
+  }
+  .notfoundMobileContainer {
+    grid-template-columns: 1fr !important;
+  }
+  .backToHomeMobile {
+    width: 50% !important;
+  }
+  /* Alert dialog */
+  .alertDialogCartActionsMobile {
+    flex-direction: column !important;
+  }
+  .alertDialogCartActionsMobileButtonsBox {
+    margin: 1rem 0 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 100% !important;
+  }
+  .ProceedToCheckoutTextMobile {
+    text-align: center !important;
+  }
+}
+@media print {
+  #printPageButton {
+    display: none;
+  }
+  @page {
+    margin: 0;
+  }
+  body {
+    margin: 1.6cm;
+  }
+}
